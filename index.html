@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Instagram App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="posts"></div>
+<template id="postTemplate" style="display: none">
+    <div class="post">
+        <img class="post__photo" src="" alt="photo"/>
+        <div class="post__content">
+            <div class="post__header">
+                <img class="user__ava" src="" alt="ava"/>
+                <div class="post__header_middle">
+                    <div class="user__name"></div>
+                    <div class="post__location"></div>
+                </div>
+                <div class="post__header_time-ago">1h</div>
+            </div>
+            <div class="post__likes">
+                <span class="heart">&#9825;</span>
+                <span class="post__likes_number"></span>
+            </div>
+            <div class="post__desc"></div>
+        </div>
+    </div>
+</template>
+<script src="main.js"></script>
+</body>
+</html>
